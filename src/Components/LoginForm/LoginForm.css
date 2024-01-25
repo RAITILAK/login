@@ -1,3 +1,9 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 .wrapper {
   width: 500px;
   height: 500px;
@@ -8,7 +14,7 @@
   box-shadow: 0 0 6px rgb(3, 3, 3);
   color: rgb(4, 7, 10);
   margin-top: -170px;
-  margin-right: -200px;
+  margin-right: 200px;
   border-radius: 10px;
   padding: 30px 40px;
 }
@@ -32,7 +38,9 @@
   height: 100%;
   background: transparent;
   /* border: none; */
-  outline: none;
+  /* outline: none; */
+  outline-color: #8fc0ed;
+
   border: 3px solid rgba(248, 245, 245, 0.2);
   border-radius: 40px;
   font-size: 16px;
